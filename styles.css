@@ -12,8 +12,9 @@
 } */
 
 .square {
-    height: 60px;
-    width: 60px;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
     background-color: blue;
     border: 1px solid black;
 }
@@ -79,5 +80,18 @@ input:checked + .slider:before {
     border-radius: 50%;
     /* background-color: black; */
 }
+
+.triangle {
+    /* position: absolute;
+    top: 50px;
+    left: 15px; */
+    margin: 10px;
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid orange;
+}
+
 
 
