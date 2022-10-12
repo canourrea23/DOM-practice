@@ -9,22 +9,29 @@ const tog = document.getElementById('slider-round')
 
 
 //dark-mode not working yet
-// tog.addEventListener('click', () => {
-//     let initialBackgroundColor = document.body.style.backgroundColor;
-//     let staticBackgroundColor = new String(document.body.style.backgroundColor).valueOf()
 
-//     if (initialBackgroundColor !== "black") {
-        
-//         document.body.style.backgroundColor = 'black';
-//         console.log('tog')
-//     } else {
-//         console.log(initialBackgroundColor, 'initial color')
-//         console.log(staticBackgroundColor, 'called')
-//         document.body.style.backgroundColor = staticBackgroundColor
-//     }
-// })
-// document.body.style.backgroundColor = 'purple'
-// console.log(document.body.style.backgroundColor,"haha")
+
+//toggles if true add body style ='color'
+
+tog.addEventListener('click', () => {
+    let initialBackgroundColor = document.body.style.backgroundColor;
+    let staticBackgroundColor = new String(document.body.style.backgroundColor).valueOf()
+    
+    if (initialBackgroundColor !== "black") {
+        tog.toggle = document.body.style.backgroundColor = 'black'
+        console.log('tog')
+    } else {
+        tog.toggle = document.body.style.backgroundColor = 'white'
+        console.log('green3')
+    }
+    // } else {
+    //     console.log(initialBackgroundColor, 'initial color')
+    //     console.log(staticBackgroundColor, 'called')
+    //     document.body.style.backgroundColor = staticBackgroundColor
+    // }
+})
+document.body.style.backgroundColor = 'purple'
+console.log(document.body.style.backgroundColor,"haha")
 
 blue.addEventListener('click', () => {
     document.body.style.backgroundColor = 'blue';
