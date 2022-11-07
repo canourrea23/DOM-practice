@@ -93,5 +93,11 @@ input:checked + .slider:before {
     border-bottom: 100px solid orange;
 }
 
-
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: 10px;
+    background-color: #49fb35;
+}
 
