@@ -1,6 +1,6 @@
-/* * {
-    border: 1px solid red;
-} */
+* {
+    margin-left: 2%;
+}
 /* body {
     background: blueviolet;
 } */
@@ -10,6 +10,16 @@
     width: 50px;
     border: 1px;
 } */
+
+body {
+    height: 100vh;
+    color: whitesmoke;
+}
+
+h4, h1 {
+    color: white;
+    margin-left: 1.5vw !important;
+}
 
 .square {
     margin: 10px;
@@ -74,6 +84,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
     border-radius: 34px;
+    border: 2px solid #474755;
 }
 
 .slider.round:before {
@@ -101,3 +112,12 @@ input:checked + .slider:before {
     background-color: #49fb35;
 }
 
+#orange {
+    background-color: orange;
+    color: white;
+}
+
+.button {
+    margin: 1%;
+    /* border: 3px white solid; */
+}

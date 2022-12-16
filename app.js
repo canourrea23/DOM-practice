@@ -3,7 +3,7 @@ console.log('UmmpaLummpa')
 
 const blue = document.getElementById('blue');
 const red = document.getElementById('red')
-const white = document.getElementById('white')
+const green = document.getElementById('green')
 // const square = document.getElementById('square')
 const tog = document.getElementById('slider-round')
 
@@ -48,8 +48,8 @@ red.addEventListener('click', () => {
     console.log('jello')
 })
 
-white.addEventListener('click', () => {
-    document.body.style.backgroundColor = 'white'
+green.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'lightgreen'
 })
 
 square.addEventListener('click', () => {

@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM practice</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <h1>Hola</h1>
     <h4>Dark-mode/light-mode</h4>
+    <!-- <input type="checkbox" class="toggle" checked> -->
     <label class="switch">
         <input type="checkbox" checked>
         <span id="slider-round" class="slider round"></span>
     </label>
     <h1>Changing Colors and Shapes Lab</h1>
-        <button key="blue" id="blue">Make Background Blue</button>
-        <button id="red">Make Background Red</button>
-        <button id="white">Make Background White</button>
-        <button id="square">Add a Square</button>
-        <button id="triangle">Add a Triangle</button>
-        <button id="circle">Add a Circle</button>
-        <button id="deleteSquare">Delete a Square</button>
-        <button id="deleteTriangle">Delete a Triangle</button>
-        <button id="deleteCircle">Delete a Circle</button>
-        <button id="squareColor">Make Squares Green</button>
-        <button>Make Squares Yellow</button>
-        <button>Make Circles Purple</button>
-        <button>Make Circles Orange</button>
+        <button id="blue" class="button is-link is-inverted ">Make Background Blue</button>
+        <button id="red" class="button is-danger is-inverted">Make Background Red</button>
+        <button id="green" class="button is-success is-inverted">Make Background White</button>
+        <button id="square" class="button is-responsive">Add a Square</button>
+        <button id="triangle" class="button is-responsive">Add a Triangle</button>
+        <button id="circle" class="button is-responsive">Add a Circle</button>
+        <button id="deleteSquare" class="button is-responsive">Delete a Square</button>
+        <button id="deleteTriangle" class="button is-responsive">Delete a Triangle</button>
+        <button id="deleteCircle" class="button is-responsive">Delete a Circle</button>
+        <button id="squareColor" class="button is-primary is-active">Make Squares Green</button>
+        <button class="button is-warning is-active">Make Squares Yellow</button>
+        <button class="button is-link">Make Circles Purple</button>
+        <button id="orange" class="button is-warning">Make Circles Orange</button>
         <script src="app.js"></script>
     </body>
 </html>
